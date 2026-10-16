@@ -1,0 +1,61 @@
+:root {
+    --beige: #c7c3bd;
+    --black: #000000;
+    --blue: #016fff;
+    --cyan: #14c7de;
+    --darkslateblue: #444fad;
+    --gray: #818181;
+    --green: #2eda77;
+    --orange: #fa9d01;
+    --purple: #8c54d0;
+    --red: #ed3524;
+    --white: #ffffff;
+}
+.theme-dark {
+    --background-primary-alt: var(--black);
+    --background-primary: var(--black);
+    --background-secondary-alt: var(--black);
+    --background-secondary: var(--black);
+    --text-normal: var(--white);
+    --text-on-accent: var(--white);
+    --text-selection: var(--darkslateblue);
+}
+/* --- Text Justification for OLED Theme --- */
+
+/* Reading View (Preview Mode) */
+.markdown-preview-view p {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Live Preview & Source Mode */
+.markdown-source-view.mod-cm6 .cm-line {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+/* Optional: Keep lists and headers left-aligned for better readability */
+.markdown-preview-view ul > li,
+.markdown-preview-view ol > li,
+.markdown-preview-view h1,
+.markdown-preview-view h2,
+.markdown-preview-view h3,
+.markdown-source-view ul > li,
+.markdown-source-view ol > li,
+.markdown-source-view h1,
+.markdown-source-view h2,
+.markdown-source-vie   
+
+/* Reading view images */
+.markdown-preview-view img,
+.markdown-rendered img,
+
+/* Live Preview / Editing view images */
+.markdown-source-view img,
+.cm-content img,
+
+/* Internal embeds */
+.image-embed img {
+    border-radius: 16px !important;
+    overflow: hidden;
+}
